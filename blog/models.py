@@ -61,7 +61,7 @@ class Chat1(models.Model):
 class Chat2(models.Model):
     color = models.CharField(blank=True, null=True)
     date_of_birth = models.DateTimeField(blank=True, null=True)
-    proprietaire2 = models.CharField(nom='nom proprietaire2', blank=True, null=True)  # methode: personne
+    proprietaire2 = models.CharField( blank=True, null=True)  # methode: personne
     nourriture = models.CharField(blank=True, null=True)  # methode: nourriture_pour_chat
 
     def personne2(self):

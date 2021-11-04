@@ -4,10 +4,12 @@ mdp : Tagerwill=11
 mails : williantag07@gmail.com
 
 ---------------------------------
-https://www.pythonanywhere.com/login/
+pour le site site toutenun
+
+https://www.pythonanywhere.com/login/ 
 mdp : Tagerwill=11
-mails : williantag07@gmail.com
-username :williantag07
+mails :tonygabana877@gmail.com
+username :toutenun /projet03
 
 https://github.com/
 http://127.0.0.1:8000/admin/login/?next=/admin/
