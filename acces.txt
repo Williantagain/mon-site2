@@ -3,14 +3,47 @@ username :williantag07
 mdp : Tagerwill=11
 mails : williantag07@gmail.com
 
+--------------------------------------------
+
+
+site : https://github.com/Williantagain/premier.git
+
+…ou créez un nouveau référentiel sur la ligne de commande
+
+ 
+
+
+…ou pousser un dépôt existant depuis la ligne de commande
+
+ 
+
+
+importants:
+ quand tu met le mot de passe ça ne prend pas in faut juste suivre les instructions
+pour ma part jai pro un jetton de 90 jours
+
+jetons : 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   cest xa qui remplace le mot de passe sinon on ne pourra pas mettre le code en ligne
+ 
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
 ---------------------------------
-pour le site site toutenun
+pour le site site
 
 https://www.pythonanywhere.com/login/ 
 mdp : Tagerwill=11
 mails :tonygabana877@gmail.com
-username :toutenun /projet03
-
+username : maisondefonctions
+-------------------------------------------------------------------------
 https://github.com/
 http://127.0.0.1:8000/admin/login/?next=/admin/
 mails : williantagain@gmail.com

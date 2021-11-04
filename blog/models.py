@@ -21,10 +21,10 @@ class Post (models.Model):
 
 
 class Chat(models.Model):
-    color = models.CharField (blank=True, null=True)
-    date_of_birth = models.DateTimeField(blank=True , null= True)
-    proprietaire = models.CharField(nom ='nom proprietaire', blank=True, null=True) # methode: personne
-    nourriture = models.CharField(blank=True, null=True) # methode: nourriture_pour_chat
+    color = models.CharField (blank=True, null=True, max_length=15)
+    date_of_birth = models.DateTimeField(blank=True , null= True, max_length=15)
+    proprietaire = models.CharField(blank=True, null=True, max_length=15) # methode: personne
+    nourriture = models.CharField(blank=True, null=True , max_length=15) # methode: nourriture_pour_chat
 
 
     def personne(self):
@@ -40,10 +40,10 @@ class Chat(models.Model):
 
 
 class Chat1(models.Model):
-    color = models.CharField(blank=True, null=True)
-    date_of_birth = models.DateTimeField(blank=True, null=True)
-    proprietaire1 = models.CharField(nom='nom proprietaire1', blank=True, null=True)  # methode: personne
-    nourriture = models.CharField(blank=True, null=True)  # methode: nourriture_pour_chat
+    color = models.CharField(blank=True, null=True, max_length=15)
+    date_of_birth = models.DateTimeField(blank=True, null=True, max_length=15)
+    proprietaire1 = models.CharField( blank=True, null=True, max_length=15)  # methode: personne
+    nourriture = models.CharField(blank=True, null=True ,max_length=15)  # methode: nourriture_pour_chat
 
     def personne1(self):
         self.proprietaire1 = timezone.now()  # juste pour le moment on veut la timezone et apres on va mieux modeliser
@@ -59,10 +59,10 @@ class Chat1(models.Model):
 
 
 class Chat2(models.Model):
-    color = models.CharField(blank=True, null=True)
-    date_of_birth = models.DateTimeField(blank=True, null=True)
-    proprietaire2 = models.CharField( blank=True, null=True)  # methode: personne
-    nourriture = models.CharField(blank=True, null=True)  # methode: nourriture_pour_chat
+    color = models.CharField(blank=True, null=True, max_length=15)
+    date_of_birth = models.DateTimeField(blank=True, null=True , max_length=15)
+    proprietaire2 = models.CharField( blank=True, null=True,max_length=15)  # methode: personne
+    nourriture = models.CharField(blank=True, null=True, max_length=15)  # methode: nourriture_pour_chat
 
     def personne2(self):
         self.proprietaire2 = timezone.now()  # juste pour le moment on veut la timezone et apres on va mieux modeliser
